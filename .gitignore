@@ -8,6 +8,7 @@ Desktop.ini
 # Recycle Bin used on file shares
 $RECYCLE.BIN/
 
+*.gitignore
 # Windows Installer files
 *.cab
 *.msi
@@ -16,6 +17,12 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+
+#vs无用文件
+*.exe
+*.suo
+*.pdb
+*.cache
 
 # =========================
 # Operating System Files
