@@ -22,3 +22,9 @@ G:\Practics\Practics\obj\Debug\Practics.pdb
 G:\Practics\Practics\bin\Debug\Practics.exe
 G:\Practics\Practics\bin\Debug\Practics.pdb
 G:\Practics\Practics\obj\Debug\Practics.csprojResolveAssemblyReference.cache
+D:\学习\笔记\新建文件夹\Practics\Practics\bin\Debug\Practics.exe.config
+D:\学习\笔记\新建文件夹\Practics\Practics\bin\Debug\Practics.exe
+D:\学习\笔记\新建文件夹\Practics\Practics\bin\Debug\Practics.pdb
+D:\学习\笔记\新建文件夹\Practics\Practics\obj\Debug\Practics.csprojResolveAssemblyReference.cache
+D:\学习\笔记\新建文件夹\Practics\Practics\obj\Debug\Practics.exe
+D:\学习\笔记\新建文件夹\Practics\Practics\obj\Debug\Practics.pdb

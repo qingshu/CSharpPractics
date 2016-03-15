@@ -32,13 +32,13 @@ namespace Practics.LianXi.Sort
         private void BubbleSort(int[] ArrNums)
         {
             int[] nArrNums = CloneArray(ArrNums);
-            for (int i = 0; i < nArrNums.Length; i++)
+            for (int i = 0; i < nArrNums.Length - 1; i++)
             {
-                for (int j = i + 1; j < nArrNums.Length; j++)
+                for (int j = 0; j < nArrNums.Length - i - 1; j++)
                 {
-                    if (nArrNums[i] > nArrNums[j])
+                    if (nArrNums[j] > nArrNums[j + 1])
                     {
-                        Swap(ref nArrNums[i],ref nArrNums[j]);
+                        Swap(ref nArrNums[j],ref nArrNums[j + 1]);
                     }
                     m_nCount++;
                 }
@@ -52,14 +52,14 @@ namespace Practics.LianXi.Sort
         {
             int[] nArrNums = CloneArray(ArrNums);
             bool bIsExchange = false;
-            for (int i = 0; i < nArrNums.Length; i++)
+            for (int i = 0; i < nArrNums.Length - 1; i++)
             {
-                for (int j = i + 1; j < nArrNums.Length; j++)
+                for (int j = 0; j < nArrNums.Length - i - 1; j++)
                 {
-                    if (nArrNums[i] > nArrNums[j])
+                    if (nArrNums[j] > nArrNums[j + 1])
                     {
                         bIsExchange = true;
-                        Swap(ref nArrNums[i], ref nArrNums[j]);
+                        Swap(ref nArrNums[j], ref nArrNums[j + 1]);
                     }
                     m_nCount++;
                 }
